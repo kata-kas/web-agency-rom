@@ -119,7 +119,7 @@ class Contact extends React.Component {
                         <ul>
                           <li>
                             <a
-                              href="#"
+                              href="https://jobster-synergy.com"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -130,7 +130,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href="#"
+                              href="https://jobster-synergy.com"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,7 +141,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href="#"
+                              href="https://jobster-synergy.com"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -152,7 +152,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a 
-                            href="#"
+                            href="https://jobster-synergy.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             >
