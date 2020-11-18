@@ -104,27 +104,27 @@ class Contact extends React.Component {
                       <div className="more-info">
                         <p className="lead">
                           Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
+                          collaboration, or just say hi, we'd love to hear from
                           you.
                           <br />
-                          Simply fill the from and send me an email.
+                          Simply fill the from and send us an email.
                         </p>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
+                        <ul class="list-ico">
+                                <li><span class="ion-ios-location"></span> Cal. Timisorii, Nr 212, Arad, Romania</li>
+                                <li><span class="ion-ios-telephone"></span><a href="tel:0040755177060">+40 755 177 060</a></li>
+                                {/* <!-- <li><span class="ion-email"></span> contact@example.com</li>--> */}
+                                </ul> 
                       </div>
                       <div className="socials">
                         <ul>
                           <li>
                             <a
-                              href=""
+                              href="#"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
+                                <i className="ion-social-facebook"></i>
                               </span>
                             </a>
                           </li>
@@ -147,6 +147,17 @@ class Contact extends React.Component {
                             >
                               <span className="ico-circle">
                                 <i className="ion-social-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a 
+                            href=""
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-instagram"></i>
                               </span>
                             </a>
                           </li>
