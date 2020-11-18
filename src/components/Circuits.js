@@ -1,10 +1,9 @@
-import './Circuits.scss';
-
+import '../styles/Circuits.scss';
 
 function Circuits(){
     return(
         <div>
-          <svg width="2400px" height="1600px" viewBox="0 0 2400 1600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+          <svg width="2400px" height="1600px" viewBox="0 0 2400 1600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="sevege">
         <defs>
           <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stopColor="#148BB1" />

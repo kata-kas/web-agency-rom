@@ -525,7 +525,7 @@ NAVBAR
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
   background-color: #0078ff;
-  color: ##007BFF;
+  color: #007BFF;
   transition: all 500ms ease;
 }
 

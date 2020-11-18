@@ -1,14 +1,15 @@
 import React from "react";
-import "./stars.scss";
+import Circuits from './Circuits';
 import Typed from "react-typed";
-import Circuits from "./Circuits";
+import '../styles/stars.scss';
 
 class Intro extends React.Component {
   render() {
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
+      <section>
       <div id="home" className="intro route bg-image background">
-        <Circuits/>
+       <Circuits/>
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
@@ -42,6 +43,7 @@ class Intro extends React.Component {
           </div>
         </div>
       </div>
+      </section>
     );
   }
 }
