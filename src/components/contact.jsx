@@ -109,9 +109,9 @@ class Contact extends React.Component {
                           <br />
                           Simply fill the from and send us an email.
                         </p>
-                        <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> Cal. Timisorii, Nr 212, Arad, Romania</li>
-                                <li><span class="ion-ios-telephone"></span><a href="tel:0040755177060">+40 755 177 060</a></li>
+                        <ul className="list-ico">
+                                <li><span className="ion-ios-location"></span> Cal. Timisorii, Nr 212, Arad, Romania</li>
+                                <li><span className="ion-ios-telephone"></span><a href="tel:0040755177060">+40 755 177 060</a></li>
                                 {/* <!-- <li><span class="ion-email"></span> contact@example.com</li>--> */}
                                 </ul> 
                       </div>

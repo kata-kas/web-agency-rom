@@ -414,7 +414,7 @@ NAVBAR
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color: #007BFF;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -597,7 +597,7 @@ INTRO
 .intro {
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: #007BFF;
 }
 
 .intro .intro-content {
@@ -617,7 +617,7 @@ INTRO
 }
 
 .intro .intro-title {
-  color: #fff;
+  color: #007BFF;
   font-weight: 600;
   font-size: 3rem;
 }

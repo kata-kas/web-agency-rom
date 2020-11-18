@@ -412,7 +412,7 @@ NAVBAR
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color: #007BFF;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -451,18 +451,18 @@ NAVBAR
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #007BFF;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color: #007BFF;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
+  color: #007BFF;
 }
 
 .navbar-b.navbar-reduce {
@@ -500,7 +500,7 @@ NAVBAR
 }
 
 .navbar-b .navbar-brand {
-  color: #fff;
+  color: #007BFF;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -525,7 +525,7 @@ NAVBAR
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
   background-color: #0078ff;
-  color: #fff;
+  color: ##007BFF;
   transition: all 500ms ease;
 }
 
@@ -546,7 +546,7 @@ NAVBAR
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
+  background-color: #007BFF;
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -595,7 +595,7 @@ INTRO
 .intro {
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: #007BFF;
 }
 
 .intro .intro-content {
@@ -615,7 +615,7 @@ INTRO
 }
 
 .intro .intro-title {
-  color: #fff;
+  color: #007BFF;
   font-weight: 600;
   font-size: 3rem;
 }
@@ -648,15 +648,15 @@ INTRO
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
-  color: #cde1f8;
+  color: #007BFF;
 }
 
 .intro-single .breadcrumb .breadcrumb-item.active {
-  color: #cde1f8;
+  color: #007BFF;
 }
 
 .intro-single .breadcrumb a {
-  color: #fff;
+  color: #007BFF;
 }
 
 /*

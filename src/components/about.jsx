@@ -10,7 +10,7 @@ class About extends React.Component {
       <section >
         <div className="box-shadow-full" style={{margin:'5%', textAlign:'center'}}>
           <h1>Technologies We Use</h1>
-          <FontAwesomeIcon icon={faJsSquare} size="5x" color="#007BFF" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <FontAwesomeIcon icon={faJsSquare} size="5x" color="#007BFF"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <FontAwesomeIcon icon={faReact} size="5x" color="#007BFF"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <FontAwesomeIcon icon={faAngular} size="5x"  color="#007BFF"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <FontAwesomeIcon icon={faVuejs} size="5x" color="#007BFF" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -21,7 +21,7 @@ class About extends React.Component {
           <FontAwesomeIcon icon={faJava} size="5x" color="#007BFF"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <FontAwesomeIcon icon={faLaravel} size="5x" color="#007BFF" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <FontAwesomeIcon icon={faAws} size="5x" color="#007BFF" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <FontAwesomeIcon icon={faGithub} size="5x" color="#007BFF" />
+          <FontAwesomeIcon icon={faGithub} size="5x" color="#007BFF"/>
           <h2>And more</h2>
         </div>
       </section>

@@ -1,16 +1,14 @@
 import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
+import Circuits from "./Circuits";
 
 class Intro extends React.Component {
   render() {
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
       <div id="home" className="intro route bg-image background">
-        <div id="stars" />
-        <div id="stars2" />
-        <div id="stars3" />
-
+        <Circuits/>
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
