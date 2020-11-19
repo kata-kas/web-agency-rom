@@ -25,9 +25,9 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href="https://kreativio.ro" target="blank_" rel="noopener">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" /> 
+                  <img src={stock} alt="kreativio" className="img-fluid"/>
                   </div></a>
                   <div className="work-content">
                     <div className="row">
@@ -49,7 +49,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock1} data-lightbox="gallery-aguadeluz">
+                <a href="https://noss-lifestyle.com" target="blank_" rel="noopener">
                   <div className="work-img">
                     <img src={stock1} alt="" className="img-fluid" />
                   </div>
@@ -59,7 +59,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">NOSS Lifestyle</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            React and Netlify
+                            React, Next.js,Netlify
                           </span>{" "}
                         </div>
                       </div>
@@ -75,17 +75,17 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock2} data-lightbox="gallery-todo">
+                <a href="https://www.mrcleaner.de/" target="blank_" rel="noopener">
                   <div className="work-img">
                     <img src={stock2} alt="" className="img-fluid" />
                   </div></a>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title"><a href="https://www.mrcleaner.de/" target="blank">Mr Clean</a></h2>
+                        <h2 className="w-title">Mr Clean</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Laravel
+                            Php, Laravel
                           </span>
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
