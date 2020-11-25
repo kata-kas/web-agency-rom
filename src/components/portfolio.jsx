@@ -6,7 +6,7 @@ import stock1 from "../img/image2.jpg";
 import stock2 from "../img/image3.jpg";
 
 
-class Portfolio extends React.Component {
+class Portfolios extends React.Component {
   render() {
     return (
       <section id="work" className="portfolio-mf sect-pt4 route">
@@ -16,7 +16,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Our work so far
+                  Pagini Web Create de noi
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -59,7 +59,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">NOSS Lifestyle</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            React, Next.js,Netlify
+                            React, Next.js, Netlify
                           </span>{" "}
                         </div>
                       </div>
@@ -105,4 +105,4 @@ class Portfolio extends React.Component {
   }
 }
 
-export default Portfolio;
+export default Portfolios;

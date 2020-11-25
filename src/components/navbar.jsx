@@ -1,8 +1,9 @@
 import React from "react";
 import $ from "jquery";
-
-import logo1 from "../img/jbs-logo-orange.svg";
-import logo2 from "../img/jbs-logo-black.svg";
+import {Link} from 'react-router-dom';
+import logo1 from "../img/logo-js2.png";
+import logo2 from "../img/logo-js2.png";
+import '../style.css';
 
 class Navbar extends React.Component {
   constructor() {
@@ -81,18 +82,19 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav
+      <nav 
         className="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand js-scroll" href="#page-top">
+          <Link to="/" className="nav-brand">
             <img
               src={this.state.logo}
               alt="logo"
               style={{ maxWidth: "100px" }}
             />
-          </a>
+          </Link>
+          
           <button
             className="navbar-toggler collapsed"
             type="button"
@@ -112,24 +114,29 @@ class Navbar extends React.Component {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link js-scroll active" href="#home">
-                  Home
-                </a>
+                <Link to="/" className="nav-link ">
+                Acasă
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#about">
-                  About
-                </a>
+              <Link to="/desprenoi" className="nav-link ">
+                  Despre Noi
+                  </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#work">
-                  Work
-                </a>
+              <Link to="/portofoliu" className="nav-link ">
+                  Portofoliu
+                  </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#contact">
-                  Contact
-                </a>
+              <Link to="/preturi" className="nav-link ">
+              PREȚURI
+                  </Link>
+              </li>
+              <li className="nav-item">
+              <Link to="/contact" className="nav-link ">
+                 Contact
+              </Link>
               </li>
             </ul>
           </div>

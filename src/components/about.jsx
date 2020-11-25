@@ -5,11 +5,9 @@ class About extends React.Component {
   
   render() {
     return (
-      <section >
+      <section style={{margin:'2%'}}>
         <div className="box-shadow-full" style={{margin:'2%', textAlign:'center'}}>
-          
           <Icons/>
-         
         </div>
       </section>
     );

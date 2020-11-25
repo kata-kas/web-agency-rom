@@ -26,7 +26,7 @@ function Icons(){
       <div 
       style={{fontSize:'50px'}}
       >
-          <h1>Technologies We Use</h1>
+          <h2>Din 2016 până în prezent am lucrat cu următoarele limbaje de programare, frameworks și tehnologii: </h2>
           <Icon icon={javascriptIcon}/>&nbsp;
           <Icon icon={reactIcon}/>&nbsp;
           <Icon icon={angularIcon}/>&nbsp;
@@ -47,7 +47,7 @@ function Icons(){
           <Icon icon={dockerIcon}/>&nbsp;
           <Icon icon={netlifyIcon}/> <br/>
           <Icon icon={goIcon}/><br/>
-          <h3>..And more</h3>
+          <h3>... și multe altele</h3>
           </div>)}
 
 export default Icons;
