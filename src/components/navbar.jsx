@@ -138,6 +138,11 @@ class Navbar extends React.Component {
                  Contact
               </Link>
               </li>
+              <li>
+                <a href="tel:0040755177060" className="btn btn-primary btn js-scroll px-4" role="button">
+                Sună acum!
+                </a>
+              </li>
             </ul>
           </div>
         </div>

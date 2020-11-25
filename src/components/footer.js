@@ -7,12 +7,10 @@ import {faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons';
 function Footer(){
     return(
         <div style={{backgroundColor:'white', padding:'5%'}}>
-        <Container className="footer" style={{fontFamily:'Poppins', color:"#007BFF"}}>
+        <Container className="footer" style={{color:"#007BFF"}}>
             <Row>
                 <Col><Link to="/termeni-si-conditii" style={{ textDecoration: 'none', color:"#007BFF" }}>Termeni și Condiții</Link></Col>
-                <Col style={{fontFamily:'Poppins', fontSize:'medium'}}> 
-                    <p>Jay Software powered by <a href="https://jobster-synergy.com" target="_blank" rel="noreferrer">Jobster-Synergy Group</a></p> 
-                </Col>
+                
                 <Col style={{textAlign:'right'}}><a href="https://www.facebook.com/jaysoftwarero" target="blank" style={{textDecoration:'none'}}>
                     <FontAwesomeIcon icon={faFacebook} size="2x" color="#007BFF"/></a> &nbsp; &nbsp;
 
@@ -22,14 +20,17 @@ function Footer(){
             <Row>
                 <Col><Link to="/contact" style={{ textDecoration: 'none', color:"#007BFF" }}>Contact</Link></Col>
                 <Col></Col> 
-                <Col></Col> 
+                
             </Row>
             <Row>
                 <Col></Col>
                 <Col></Col>
-                <Col></Col>
+                
             </Row>
-        </Container></div>
+        </Container>
+        <div style={{textAlign:'center', marginTop:'5%'}}>
+        <p>Jay Software powered by <a href="https://jobster-synergy.com" target="_blank" rel="noreferrer">Jobster-Synergy Group</a></p> 
+        </div></div>
     );
 }
 
