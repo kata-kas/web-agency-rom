@@ -74,7 +74,8 @@
     }
     
     &-billing {
-      background-color: #ecf0f1;
+      background-color: #007BFF;
+      color: white;
       
       p {
         margin-bottom: .5rem;
@@ -96,9 +97,9 @@
     
     &-action {
       > button {
-        border: 3px solid #3498db;
+        border: 3px solid #007BFF;
         background-color: transparent;
-        color: #3498db;
+        color: #007BFF;
         cursor: pointer;
         font-size: 16px;
         font-weight: 600;
