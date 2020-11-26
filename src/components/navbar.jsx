@@ -92,6 +92,8 @@ class Navbar extends React.Component {
               src={this.state.logo}
               alt="logo"
               style={{ maxWidth: "100px" }}
+              width="110px"
+              height="50px"
             />
           </Link>
           

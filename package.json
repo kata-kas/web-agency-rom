@@ -27,7 +27,8 @@
     "react-snap": "^1.23.0",
     "react-typed": "^1.1.2",
     "twin.macro": "^1.12.1",
-    "typed.js": "^2.0.10"
+    "typed.js": "^2.0.10",
+    "unrequired": "^0.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
