@@ -15,6 +15,7 @@ export default function App(){
     pageId="100433175248922 "
     appId="832126954287841"
     htmlRef="https://connect.facebook.net/ro_RO/sdk/xfbml.customerchat.js"
+    language="ro"
         />
        <Router>
             <Switch>
