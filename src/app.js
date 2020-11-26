@@ -12,7 +12,7 @@ export default function App(){
     return (
        <div>
         <MessengerCustomerChat
-    pageId="100433175248922"
+    pageId="100433175248922 "
     appId="832126954287841"
     htmlRef="https://connect.facebook.net/ro_RO/sdk/xfbml.customerchat.js"
         />
