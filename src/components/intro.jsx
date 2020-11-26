@@ -32,7 +32,7 @@ class Intro extends React.Component {
                 </strong>
               </p>
               <p className="pt-3">
-                <Link to="/portofoliu" className="btn btn-primary btn js-scroll px-4">
+                <Link to="/portofoliu" className="btn btn-primary btn js-scroll px-4" style={{color:'#4978ab', backgroundColor:'white'}}>
                   Portofoliu</Link>
               </p>
             </div>
