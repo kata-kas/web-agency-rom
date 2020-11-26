@@ -6,9 +6,16 @@ import Portofoliu from './pages/Portofoliu';
 import Preturi from './pages/Preturi';
 import Contact from './pages/Contact';
 import Tsc from './pages/Tsc';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 export default function App(){
     return (
+       <div>
+        <MessengerCustomerChat
+    pageId="100433175248922"
+    appId="832126954287841"
+    htmlRef="https://connect.facebook.net/ro_RO/sdk/xfbml.customerchat.js"
+        />
        <Router>
             <Switch>
                 <Route path="/" exact>
@@ -31,5 +38,6 @@ export default function App(){
                 </Route>
             </Switch>
        </Router>
+       </div>
     )
 }
