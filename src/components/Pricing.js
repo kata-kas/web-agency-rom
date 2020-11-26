@@ -105,7 +105,7 @@ const cardsData = [
     description: '',
     price: 400,
     mostPopular: true,
-    data: ['HTML, CSS si JavaScript', 'Maxim 5 de pagini (pagini suplimentare: 50RON/pagina)', 'Găzduire website(optional): 10RON/lună', 'Integrare Social Media (Open Graph)']
+    data: ['HTML, CSS si JavaScript', 'Maxim 5 pagini (pagini suplimentare: 50RON/pagina)', 'Găzduire website(optional): 10RON/lună', 'Integrare Social Media (Open Graph)']
   },
   {
     id: 2,
