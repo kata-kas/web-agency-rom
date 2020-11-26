@@ -105,7 +105,7 @@ const cardsData = [
     description: '',
     price: 400,
     mostPopular: true,
-    data: ['HTML, CSS si JavaScript', 'Maxim 5 pagini (pagini suplimentare: 50RON/pagina)', 'Găzduire website(optional): 10RON/lună', 'Integrare Social Media (Open Graph)']
+    data: ['HTML, CSS si JavaScript', 'Maxim 5 pagini (pagini suplimentare: 50RON/pagina)', 'Găzduire website(optional): 10RON/lună', 'Integrare Social Media (Open Graph)', 'Timp de execuție: o săptămâna']
   },
   {
     id: 2,
@@ -114,7 +114,7 @@ const cardsData = [
     description: 'E-commerce',
     price: 1000,
     mostPopular: false,
-    data: ['Javascript, PHP si/sau Python', 'Maxim 20 de pagini (pagini suplimentare: 75RON/pagina)', 'Găzduire website(optional): 50RON/lună', 'Integrare Social Media (Open Graph)' ]
+    data: ['Javascript, PHP si/sau Python', 'Maxim 20 de pagini (pagini suplimentare: 75RON/pagina)', 'Găzduire website(optional): 50RON/lună', 'Integrare Social Media (Open Graph)','Timp de execuție: trei săptămâni' ]
   },
   {
     id: 3,
@@ -123,7 +123,7 @@ const cardsData = [
     description: 'Aplicație/Joc',
     price: '2500*',
     mostPopular: false,
-    data: ['Swift, Objective-C, C++, C#, Klondike', '*Se negociaza in functie de marimea si complexitatea aplicatiei', 'Găzduire(optional): de la 50RON/lună','Publicare in AppStore/GooglePlay']
+    data: ['Swift, Objective-C, C++, C#, Klondike', '*Se negociaza in functie de marimea si complexitatea aplicatiei', 'Găzduire(optional): de la 50RON/lună','Publicare in AppStore/GooglePlay', 'Timp de execuție: variabil']
   },
 
 ];
