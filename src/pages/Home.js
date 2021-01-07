@@ -34,6 +34,7 @@ export default function Home(){
     sidesOpacity={0}
     slidesToShow={3}
     scrollOnDevice={true}
+    cycleInterval={100000}
   >
     <div style={{filter:'brightness("20%")'}}>
       <img
