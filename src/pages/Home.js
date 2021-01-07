@@ -30,9 +30,9 @@ export default function Home(){
     ]}
     autoCycle={true}
     sideSize={0.1}
-    slidesToScroll={4}
+    slidesToScroll={3}
     sidesOpacity={0}
-    slidesToShow={4}
+    slidesToShow={3}
     scrollOnDevice={true}
   >
     <div style={{filter:'brightness("20%")'}}>
