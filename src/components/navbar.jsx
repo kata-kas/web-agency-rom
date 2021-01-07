@@ -1,8 +1,8 @@
 import React from "react";
 import $ from "jquery";
 import {Link} from 'react-router-dom';
-import logo1 from "../img/logo-js2.png";
-import logo2 from "../img/logo-js2.png";
+import logo1 from "../img/jaylogo.svg";
+import logo2 from "../img/jaylogo.svg";
 import '../style.css';
 
 class Navbar extends React.Component {
@@ -91,8 +91,8 @@ class Navbar extends React.Component {
             <img
               src={this.state.logo}
               alt="logo"
-              style={{ maxWidth: "100px" }}
-              width="110px"
+              style={{ maxWidth: "150px" }}
+              width="1500px"
               height="50px"
             />
           </Link>
@@ -116,11 +116,6 @@ class Navbar extends React.Component {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="/" className="nav-link ">
-                Acasă
-                </Link>
-              </li>
-              <li className="nav-item">
               <Link to="/desprenoi" className="nav-link ">
                   Despre Noi
                   </Link>
@@ -131,17 +126,12 @@ class Navbar extends React.Component {
                   </Link>
               </li>
               <li className="nav-item">
-              <Link to="/preturi" className="nav-link ">
-              PREȚURI
-                  </Link>
-              </li>
-              <li className="nav-item">
               <Link to="/contact" className="nav-link ">
                  Contact
               </Link>
               </li>
               <li>
-                <a href="tel:0040755177060" className="btn btn-primary btn js-scroll px-4" role="button">
+                <a href="tel:0040755177060" className="btn btn-primary btn js-scroll px-8" role="button">
                 Sună acum!
                 </a>
               </li>

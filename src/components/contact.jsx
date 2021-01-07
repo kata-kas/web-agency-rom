@@ -1,5 +1,10 @@
 import React from "react";
 import imageOverlay from "../img/earth.jpg";
+import { Icon } from '@iconify/react';
+import facebookIcon from '@iconify-icons/fa-brands/facebook';
+import instagramFilled from '@iconify-icons/ant-design/instagram-filled';
+
+
 
 class Contacte extends React.Component {
   render() {
@@ -15,6 +20,13 @@ class Contacte extends React.Component {
               <div className="contact-mf">
                 <div id="contact" className="box-shadow-full">
                   <div className="row">
+                  <div style={{alignText:'right', padding:'5%', backgroundColor:'transparent'}}>
+        <h3>
+        ⚡  Toate Paginile Web create de noi sunt de la zero, pe comandă,<br/>
+        ✂️ Special croite pentru necesitățile afacerii tale
+
+</h3>
+		</div>
                     <div className="col-md-6">
                       <div className="title-box-2">
                         <h5 className="title-left">Trimite un mesaj</h5>
@@ -27,7 +39,7 @@ class Contacte extends React.Component {
                           className="contactForm"
                         >
                           <div id="sendmessage">
-                          Mesajul tău a fost trimis!
+                          Am primit mesajul tău, revenim cu un răspuns! 
                           </div>
                           <div id="errormessage"></div>
                           <div className="row">
@@ -38,7 +50,7 @@ class Contacte extends React.Component {
                                   name="name"
                                   className="form-control"
                                   id="name"
-                                  placeholder="Numele Tău"
+                                  placeholder="Nume Prenume"
                                   data-rule="minlen:3"
                                   data-msg="Te rugăm să introduci cel puțin trei litere"
                                 />
@@ -122,32 +134,16 @@ class Contacte extends React.Component {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <span className="ico-circle">
-                                <i className="ion-social-facebook"></i>
-                              </span>
-                            </a>
-                          </li>
-                         
-                          <li>
-                            <a
-                              href="https://jobster-synergy.com"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-linkedin"></i>
-                              </span>
+                             <Icon icon={facebookIcon} color="#3b5998" width="3em" height="3em" />
                             </a>
                           </li>
                           <li>
                             <a 
-                            href="https://jobster-synergy.com"
+                            href="https://www.instagram.com/jay_software/"
                             target="_blank"
                             rel="noopener noreferrer"
                             >
-                              <span className="ico-circle">
-                                <i className="ion-social-instagram"></i>
-                              </span>
+                              <Icon icon={instagramFilled} color="#833AB4" width="3em" height="3em" />
                             </a>
                           </li>
                         </ul>

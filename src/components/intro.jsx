@@ -13,16 +13,18 @@ class Intro extends React.Component {
        <Circuits/>
         <div className="intro-content display-table">
           <div className="table-cell">
-            <div className="container">
-              <h1 className="intro-title mb-4">Salut! <br/> Noi suntem Jay Software </h1>
-              <p className="intro-subtitle">
+            <div className="container" style={{textAlign: 'left'}}>
+              <p className="intro-title">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      "Pagini web de prezentare",
+                      "Pagini web",
                       "Magazine online ",
-                      "Aplicații web și mobile"
+                      "Aplicații web/de mobil",
+                      "Design Grafic",
+                      "Strategie SEO",
+                      "Administrare social media"
                     ]}
                     typeSpeed={80}
                     backDelay={1100}
@@ -31,9 +33,10 @@ class Intro extends React.Component {
                   />
                 </strong>
               </p>
+              <h3>Pentru Afaceri de Succes </h3>
               <p className="pt-3">
                 <Link to="/portofoliu" className="btn btn-primary btn js-scroll px-4">
-                  Portofoliu</Link>
+                Despre Noi</Link>
               </p>
             </div>
           </div>

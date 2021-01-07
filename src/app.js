@@ -3,10 +3,11 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './pages/Home';
 import DespreNoi from './pages/DespreNoi';
 import Portofoliu from './pages/Portofoliu';
-import Preturi from './pages/Preturi';
 import Contact from './pages/Contact';
 import Tsc from './pages/Tsc';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
+import NOSS from './pages/NOSS';
+import './style.css';
 
 export default function App(){
     return (
@@ -28,14 +29,14 @@ export default function App(){
                 <Route path="/portofoliu">
                     <Portofoliu/>
                 </Route>
-                <Route path="/preturi">
-                    <Preturi/>
-                </Route>
                 <Route path="/contact">
                     <Contact/>
                 </Route>
                 <Route path="/termeni-si-conditii">
                     <Tsc/>
+                </Route>
+                <Route path="/noss">
+                    <NOSS/>
                 </Route>
             </Switch>
        </Router>

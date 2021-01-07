@@ -19,13 +19,14 @@ import cPlusplus from '@iconify-icons/logos/c-plusplus';
 import cSharp from '@iconify-icons/logos/c-sharp';
 import dockerIcon from '@iconify-icons/logos/docker-icon';
 import netlifyIcon from '@iconify-icons/logos/netlify';
-
+import { Button} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 function Icons(){
     return (
       <div 
       style={{fontSize:'50px'}}
-      >
+      >   
           <h2>Din 2016 până în prezent am lucrat cu următoarele limbaje de programare, frameworks și tehnologii: </h2>
           <Icon icon={javascriptIcon}/>&nbsp;
           <Icon icon={reactIcon}/>&nbsp;
@@ -48,6 +49,9 @@ function Icons(){
           <Icon icon={netlifyIcon}/> <br/>
           <Icon icon={goIcon}/><br/>
           <h3>... și multe altele</h3>
+          <Link to="/contact">
+          <Button size="lg">Cere o cotație</Button>
+          </Link>
           </div>)}
 
 export default Icons;
