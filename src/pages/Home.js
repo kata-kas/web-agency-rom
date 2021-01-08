@@ -3,9 +3,12 @@ import Navbar from '../components/navbar.jsx';
 import Intro from '../components/intro.jsx';
 import Footer from '../components/footer.js';
 import First from '../components/Firstsvg.js';
-import {Row, Col, Container, Button} from 'react-bootstrap'
+import {Row, Col, Container} from 'react-bootstrap'
 import InfiniteCarousel from 'react-leaf-carousel';
 import {Link} from 'react-router-dom'
+import {AnimatePresence, motion} from 'framer-motion'
+import {SplitText} from '../components/splitText'
+
 export default function Home(){
     return (
         <div>
@@ -87,15 +90,40 @@ export default function Home(){
             <h2 
             style={{color:'#007BFF'}}>DIN OFFLINE CĂTRE SUCCESS</h2><br/><br/><br/>
             <h3 >Web Design | Visual Design<br/>Dezvoltare Web | Online Marketing</h3><br/><br/>
-            <p
-            style={{color:'grey'}}>Ai o idee pe care dorești să o implementezi? <br/>
-            Cauți un suflu nou pentru afacerea ta?<br/>
-            Dorești să fii mai aproape de clienții tăi și să-ti crești vizibillitatea? <br/>
-            Competiția a devenit acerbă și dorești să te evidențiezi? <br/>
-            Soluțiile se află doar în mediul online iar noi le aducem la îndemână ta.</p><br/>            
-            <Link to="/contact">
-          <Button size="lg">Cere o cotație</Button>
-          </Link>
+            <AnimatePresence>
+            <motion.div
+              initial={{ opacity: 1 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+            >
+              <SplitText
+                initial={{ y: '100%' }}
+                animate="visible"
+                variants={{
+                  visible: i => ({
+                    y: 0,
+                    transition: {
+                      delay: i * 0.1
+                    }
+                  })
+                }}
+              >
+ Ai o idee pe care dorești să o implementezi?            
+ Cauți un suflu nou pentru afacerea ta?
+            Dorești să fii mai aproape de clienții tăi și să-ti crești vizibillitatea? 
+            Competiția a devenit acerbă și dorești să te evidențiezi?
+            Soluțiile se află doar în mediul online iar noi le aducem la îndemână ta.              </SplitText>
+              </motion.div>
+            </AnimatePresence>         
+            <motion.p className="pt-3"
+               whileHover={{
+               scale:1.1,
+               originX:0,
+               textShadow: "0px 0px 8px rgb(255,255,255)",
+               }}>
+                <Link to="/contact" className="btn btn-primary btn js-scroll px-4">
+                Cere o cotație</Link>
+              </motion.p>
         </Col>
         <Col>
                 <First/>

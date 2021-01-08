@@ -998,3 +998,21 @@ BUTTON
     bottom: 15px;
   }
 }
+.servicii{
+  height: auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  line-height: 2rem;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255);
+  text-align: left;
+ 
+}
+@media (max-width:760px){
+  .grid-container{
+    grid-template-columns: auto;
+  }
+}

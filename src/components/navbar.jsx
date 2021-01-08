@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import logo1 from "../img/jaylogo.svg";
 import logo2 from "../img/jaylogo.svg";
 import '../style.css';
+import {motion} from 'framer-motion'
 
 class Navbar extends React.Component {
   constructor() {
@@ -87,8 +88,9 @@ class Navbar extends React.Component {
         id="mainNav"
       >
         <div className="container">
-          <Link to="/" className="nav-brand">
-            <img
+          <Link to="/" className="nav-brand"
+          >
+            <motion.img
               src={this.state.logo}
               alt="logo"
               style={{ maxWidth: "150px" }}
@@ -123,6 +125,11 @@ class Navbar extends React.Component {
               <li className="nav-item">
               <Link to="/portofoliu" className="nav-link ">
                   Portofoliu
+                  </Link>
+              </li>
+              <li className="nav-item">
+              <Link to="/servicii" className="nav-link ">
+                  Servicii
                   </Link>
               </li>
               <li className="nav-item">

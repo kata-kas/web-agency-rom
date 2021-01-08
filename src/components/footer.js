@@ -18,11 +18,6 @@ function Footer(){
                     <FontAwesomeIcon icon={faInstagram} size="2x" color="#007BFF"/> </a>&nbsp; &nbsp;   </Col>
             </Row>
             <Row>
-                <Col><Link to="/contact" style={{ textDecoration: 'none', color:"#007BFF" }}>Contact</Link></Col>
-                <Col></Col> 
-                
-            </Row>
-            <Row>
                 <Col></Col>
                 <Col></Col>
                 

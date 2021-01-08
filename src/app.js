@@ -8,7 +8,7 @@ import Tsc from './pages/Tsc';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 import NOSS from './pages/NOSS';
 import './style.css';
-
+import Servicii from './pages/Preturi';
 export default function App(){
     return (
        <div>
@@ -35,9 +35,13 @@ export default function App(){
                 <Route path="/termeni-si-conditii">
                     <Tsc/>
                 </Route>
+                <Route path="/servicii">
+                    <Servicii/>
+                </Route>
                 <Route path="/noss">
                     <NOSS/>
                 </Route>
+               
             </Switch>
        </Router>
        </div>

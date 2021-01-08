@@ -3,7 +3,7 @@ import Circuits from './Circuits';
 import Typed from "react-typed";
 import '../styles/stars.scss';
 import {Link} from 'react-router-dom';
-
+import {motion} from 'framer-motion'
 class Intro extends React.Component {
   render() {
     return (
@@ -33,11 +33,18 @@ class Intro extends React.Component {
                   />
                 </strong>
               </p>
-              <h3>Pentru Afaceri de Succes </h3>
-              <p className="pt-3">
+              <motion.h3
+              whileHover={{textShadow: "0px 0px 8px #0062d3"}}
+              >Pentru Afaceri de Succes </motion.h3>
+              <motion.p className="pt-3"
+               whileHover={{
+               scale:1.1,
+               originX:0,
+               textShadow: "0px 0px 8px rgb(255,255,255)",
+               }}>
                 <Link to="/portofoliu" className="btn btn-primary btn js-scroll px-4">
                 Despre Noi</Link>
-              </p>
+              </motion.p>
             </div>
           </div>
         </div>
