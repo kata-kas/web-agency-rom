@@ -43,8 +43,7 @@ export default function Servicii(){
                     }
                   })
                 }}
-              >
-                We offer a full range of services for projects of any level and any stage of readiness - from the start, when there is only an idea that needs development, creation of tools and promotion, to the final result, when the resource is in need of technical support.
+              > Oferim o gama completa de servicii pentru proiecte la orice nivel si la orice stadiu de pregatire - de la inceput, unde este doar o idee care trebuie dezvoltatata, prin unelte si promovare, la rezultatul final, unde este nevoie de suport tehnic.
                 </SplitText>
               </motion.div>
             </AnimatePresence>
@@ -56,16 +55,17 @@ export default function Servicii(){
             transition={{duration:1, type:'tween'}}
             whileHover={{scale:1.1,boxShadow: "0px 0px 8px red",}}>
                 <img src={dev} alt=""/>
-                <h1>WEB DEVELOPMENT</h1>
-Analytics, research<br/>
+                <h1> DEZVOLTARE WEB</h1>
+Analytics, documentare<br/>
 UI/UX Design<br/>
-Adaptive design<br/>
+Design adaptiv<br/>
 Layout<br/>
-Logic development, templates integration with CMS<br/>
-Implementation<br/>
-Content creation<br/>
-Testing<br/>
-Support<br/>
+Creare de pagini web de la zero in framework Javascrip, PHP sau Python<br/>
+Dezvoltare si integrare template cu un CMS<br/>
+Implementare<br/>
+Creare de continut<br/>
+Testare<br/>
+Suport<br/>
             </motion.div>
             <motion.div class="grid-item"
             initial={{y:750}}
@@ -75,12 +75,12 @@ Support<br/>
             >
                 <img src={mobile} alt=""/>
                 <h1>MOBILE DEVELOPMENT</h1>
-Analytics, research<br/>
+Analytics, documentare<br/>
 UI/UX Design<br/>
-Development: native, cross-platform<br/>
-Publication<br/>
-Testing<br/>
-Support<br/>
+Dezvoltare: native, cross-platform<br/>
+Publicare<br/>
+Testare<br/>
+Suport<br/>
             </motion.div>
             <motion.div class="grid-item"initial={{y:-750}}
             animate={{y:0}}
@@ -89,40 +89,39 @@ Support<br/>
                 <img src={design} alt=""/>
                 <h1>DESIGN</h1>
 Analytics<br/>
-Comprehensive Studies<br/>
+Cercetari Comprehensive<br/>
 UI/UX Design<br/>
-Informational design<br/>
-Promo<br/>
-Usability Testing Site or Prototypes<br/>
+Design Informational<br/>
+Promovare<br/>
+Creare de continut foto, ilustrat si video<br/>
             </motion.div>
             <motion.div className="grid-item"
             transition={{duration:1, delay:0.2, type:'tween'}}
              whileHover={{scale:1.1,boxShadow: "0px 0px 8px red",}}>
                 <img src={branding} alt=""/>
                 <h1>BRANDING</h1>
-Brand platform development<br/>
-Naming, slogan development<br/>
-Logo, corporate identity<br/>
-Development of prints and souvenir products<br/>
+Dezvoltare a Brand-ului<br/>
+Creare de identitate Brand (Nume, Slogan)<br/>
+Creare de Logo, identitate vizuala<br/>
+Creare de produse si mock upsbr/>
             </motion.div>
             <motion.div className="grid-item"
             transition={{duration:1, delay:0.2, type:'tween'}}
              whileHover={{scale:1.1,boxShadow: "0px 0px 8px red",}}>
                 <img src={promotion} alt=""/>
-                <h1>PROMOTION</h1>
+                <h1>PROMOVARE</h1>
 SEO<br/>
-Contextual advertising<br/>
 SMM<br/>
             </motion.div>
             <motion.div className="grid-item"
             transition={{duration:1, delay:0.2, type:'tween'}}
              whileHover={{scale:1.1,boxShadow: "0px 0px 8px red",}}>
                 <img src={support} alt=""/>
-                <h1>SUPPORT</h1>
-                Technical support<br/>
+                <h1>SUPORT</h1>
+                Suport Tehnic <br/>
                 Hosting<br/>
-                System administration<br/>
-                High-load solutions<br/>
+                Administrare websiten<br/>
+                Solutii High-load<br/>
             </motion.div>
             </motion.div>
             <Footer/>
