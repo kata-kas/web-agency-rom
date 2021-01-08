@@ -7,7 +7,7 @@ export default function Portofoliu(){
     return(
         <div>
             <Navbar/>
-            <div style={{ paddingTop:'5%', paddingBottom:'10%'}}>
+            <div style={{ paddingTop:'10rem', paddingBottom:'10rem'}}>
             <Portofolios/>
             </div>
             <Footer/>

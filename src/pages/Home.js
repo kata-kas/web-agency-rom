@@ -95,6 +95,7 @@ export default function Home(){
               initial={{ opacity: 1 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
+              tyle={{ paddingTop:'10rem', paddingBottom:'10rem',paddingLeft:'5rem',paddingRight:'10rem'}}
             >
               <SplitText
                 initial={{ y: '100%' }}

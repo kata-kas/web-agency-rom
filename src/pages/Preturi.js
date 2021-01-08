@@ -24,8 +24,9 @@ const containerVariants={
 
 export default function Servicii(){
     return(
-        <div style={{backgroundColor:'white', padding:'7rem'}}>
-            <Navbar />
+      <div>
+       
+            <Navbar /> <div style={{ paddingTop:'10rem', paddingBottom:'10rem',paddingLeft:'5rem',paddingRight:'10rem'}}>
             <AnimatePresence>
             <motion.div
               initial={{ opacity: 1 }}
@@ -103,7 +104,7 @@ Creare de continut foto, ilustrat si video<br/>
 Dezvoltare a Brand-ului<br/>
 Creare de identitate Brand (Nume, Slogan)<br/>
 Creare de Logo, identitate vizuala<br/>
-Creare de produse si mock upsbr/>
+Creare de produse si mock ups<br/>
             </motion.div>
             <motion.div className="grid-item"
             transition={{duration:1, delay:0.2, type:'tween'}}
@@ -124,6 +125,7 @@ SMM<br/>
                 Solutii High-load<br/>
             </motion.div>
             </motion.div>
+            </div>
             <Footer/>
         </div>
     )
