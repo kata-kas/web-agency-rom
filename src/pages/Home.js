@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/navbar.jsx';
 import Intro from '../components/intro.jsx';
 import Footer from '../components/footer.js';
-import First from '../components/Firstsvg.js';
+import First from '../img/webdev.svg';
 import {Row, Col, Container} from 'react-bootstrap'
 import InfiniteCarousel from 'react-leaf-carousel';
 import {Link} from 'react-router-dom'
@@ -39,12 +39,7 @@ export default function Home(){
     scrollOnDevice={true}
     cycleInterval={100000}
   >
-    <div style={{filter:'brightness("20%")'}}>
-      <img
-        alt=""
-        src="https://s13emagst.akamaized.net/layout/ro/images/logo//49/73695.svg" width="100" height="108" style={{ webkitFilter: 'grayscale(1)'}}
-      />
-    </div>
+    
    
     <div>
       <img
@@ -109,11 +104,10 @@ export default function Home(){
                   })
                 }}
               >
- Ai o idee pe care dorești să o implementezi?            
- Cauți un suflu nou pentru afacerea ta?
+            Ai o idee pe care dorești să o transformi în realitate?            
+            Dorești un redesign pentru afacerea ta?
             Dorești să fii mai aproape de clienții tăi și să-ti crești vizibillitatea? 
-            Competiția a devenit acerbă și dorești să te evidențiezi?
-            Soluțiile se află doar în mediul online iar noi le aducem la îndemână ta.              </SplitText>
+            Soluțiile se află doar în mediul online, iar noi te ajută să le implementezi.              </SplitText>
               </motion.div>
             </AnimatePresence>         
             <motion.p className="pt-3"
@@ -127,7 +121,7 @@ export default function Home(){
               </motion.p>
         </Col>
         <Col>
-                <First/>
+               <img src={First} alt=""/>
         </Col>
         </Row>
         </Container>
