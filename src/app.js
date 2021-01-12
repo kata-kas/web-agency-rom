@@ -6,7 +6,6 @@ import Portofoliu from './pages/Portofoliu';
 import Contact from './pages/Contact';
 import Tsc from './pages/Tsc';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
-import NOSS from './pages/NOSS';
 import './style.css';
 import Servicii from './pages/Preturi';
 export default function App(){
@@ -38,10 +37,6 @@ export default function App(){
                 <Route path="/servicii">
                     <Servicii/>
                 </Route>
-                <Route path="/noss">
-                    <NOSS/>
-                </Route>
-               
             </Switch>
        </Router>
        </div>
