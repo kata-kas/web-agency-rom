@@ -6,8 +6,7 @@ import First from '../img/webdev.svg';
 import {Row, Col, Container} from 'react-bootstrap'
 import InfiniteCarousel from 'react-leaf-carousel';
 import {Link} from 'react-router-dom'
-import {AnimatePresence, motion} from 'framer-motion'
-import {SplitText} from '../components/splitText'
+import {motion} from 'framer-motion'
 
 export default function Home(){
     return (
@@ -85,31 +84,12 @@ export default function Home(){
             <h2 
             style={{color:'#007BFF'}}>DIN OFFLINE CĂTRE SUCCESS</h2><br/><br/><br/>
             <h3 >Web Design | Visual Design<br/>Dezvoltare Web | Online Marketing</h3><br/><br/>
-            <AnimatePresence>
-            <motion.div
-              initial={{ opacity: 1 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              tyle={{ paddingTop:'10rem', paddingBottom:'10rem',paddingLeft:'5rem',paddingRight:'10rem'}}
-            >
-              <SplitText
-                initial={{ y: '100%' }}
-                animate="visible"
-                variants={{
-                  visible: i => ({
-                    y: 0,
-                    transition: {
-                      delay: i * 0.1
-                    }
-                  })
-                }}
-              >
+            <motion.div>
             Ai o idee pe care dorești să o transformi în realitate?            
             Dorești un redesign pentru afacerea ta?
             Dorești să fii mai aproape de clienții tăi și să-ti crești vizibillitatea? 
-            Soluțiile se află doar în mediul online, iar noi te ajutăm să le implementezi.              </SplitText>
+            Soluțiile se află doar în mediul online, iar noi te ajutăm să le implementezi.        
               </motion.div>
-            </AnimatePresence>         
             <motion.p className="pt-3"
                whileHover={{
                scale:1.1,
@@ -126,7 +106,6 @@ export default function Home(){
         </Row>
         </Container>
         <Footer/>
-        
         </div>
     );
 }
