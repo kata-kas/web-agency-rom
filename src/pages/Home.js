@@ -107,7 +107,7 @@ export default function Home(){
             Ai o idee pe care dorești să o transformi în realitate?            
             Dorești un redesign pentru afacerea ta?
             Dorești să fii mai aproape de clienții tăi și să-ti crești vizibillitatea? 
-            Soluțiile se află doar în mediul online, iar noi te ajută să le implementezi.              </SplitText>
+            Soluțiile se află doar în mediul online, iar noi te ajutăm să le implementezi.              </SplitText>
               </motion.div>
             </AnimatePresence>         
             <motion.p className="pt-3"
