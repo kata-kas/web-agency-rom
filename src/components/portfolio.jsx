@@ -28,56 +28,7 @@ class Portfolios extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href="https://kreativio.ro" target="blank_" rel="noopener">
-                  <div className="work-img">
-                  <img src={stock} alt="kreativio" className="img-fluid"/>
-                  </div></a>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title"><a href="https://kreativio.ro" target="blank" alt="kreativio">Kreativio</a></h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            Angular, Apollo, Nodejs
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href="https://noss-lifestyle.com" target="blank_" rel="noopener">
-                  <div className="work-img">
-                    <img src={stock1} alt="noss lifestyle" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">NOSS Lifestyle</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            React, Next.js, Netlify
-                          </span>{" "}
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                
-              </div>
-            </div>
+            
             <div className="col-md-4">
               <div className="work-box">
                 <a href="https://jobster-synergy.com" target="blank_" rel="noopener">
@@ -156,7 +107,7 @@ class Portfolios extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href="https://kreativio.ro" target="blank_" rel="noopener">
+                <a href="https://www.apotheke-sonthofen.de" target="blank_" rel="noopener">
                   <div className="work-img">
                   <img src={stock6} alt="kreativio" className="img-fluid"/>
                   </div></a>
@@ -178,6 +129,57 @@ class Portfolios extends React.Component {
                   </div>
               </div>
             </div>
+            <div className="col-md-4">
+              <div className="work-box">
+                <a href="https://noss-lifestyle.com" target="blank_" rel="noopener">
+                  <div className="work-img">
+                    <img src={stock1} alt="noss lifestyle" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">NOSS Lifestyle</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            React, Next.js, Netlify
+                          </span>{" "}
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="work-box">
+                <a href="https://kreativio.ro" target="blank_" rel="noopener">
+                  <div className="work-img">
+                  <img src={stock} alt="kreativio" className="img-fluid"/>
+                  </div></a>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title"><a href="https://kreativio.ro" target="blank" alt="kreativio">Kreativio</a></h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            Angular, Apollo, Nodejs
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            
           </div>
         </div>
       </section>

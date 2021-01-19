@@ -1,6 +1,9 @@
 /*
 GENERAL STYLING
 */
+*{
+  font-family: Helvetica, sans-serif !important;
+}
 body {
   background-color: #ffffff!important;
   color: #4e4e4e!important;
