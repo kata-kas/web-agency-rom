@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from 'react-router-dom'
 //import stock
 import stock from "../img/image1.png";
 import stock1 from "../img/image2.png";
@@ -142,8 +142,11 @@ class Portfolios extends React.Component {
                         <div className="w-more">
                           <span className="w-ctegory">
                             React, Next.js, Netlify
-                          </span>{" "}
+                          </span>
                         </div>
+                        <Link to="/noss" className="btn btn-primary btn js-scroll px-4">
+                            Detalii
+                          </Link>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
@@ -169,7 +172,10 @@ class Portfolios extends React.Component {
                           <span className="w-ctegory">
                             Angular, Apollo, Nodejs
                           </span>
-                        </div>
+                        </div> 
+                          <Link to="/kreativio" className="btn btn-primary btn js-scroll px-4">
+                            Detalii
+                          </Link>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
@@ -223,7 +229,7 @@ class Portfolios extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title"><a href="https://noss-lifestyle.com" target="blank" alt="noss-lifestyle">NOSS Lifestyle</a></h2>
+                        <h2 className="w-title"><a href="https://www.facebook.com/corul.celestius" target="blank" alt="noss-lifestyle">NOSS Lifestyle</a></h2>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
