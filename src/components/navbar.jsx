@@ -5,11 +5,22 @@ import logo1 from "../img/jaylogo.svg";
 import logo2 from "../img/jaylogo.svg";
 import '../style.css';
 import {motion} from 'framer-motion'
+import {withTranslation} from "react-i18next";
+
+import { Icon } from '@iconify/react';
+import flagForRomania from '@iconify-icons/emojione/flag-for-romania';
+
+import flagForUnitedKingdom from '@iconify-icons/emojione/flag-for-united-kingdom';
+
+import flagForGermany from '@iconify-icons/emojione/flag-for-germany';
+
+import './navbar.css';
+
 
 class Navbar extends React.Component {
   constructor() {
     super();
-    this.state = {
+    this.state = { 
       logo: logo1
     };
   }
@@ -82,6 +93,10 @@ class Navbar extends React.Component {
   }
 
   render() {
+    const { t, i18n } = this.props;
+    const changeLanguage = lng => {          
+      i18n.changeLanguage(lng);
+    };
     return (
       <nav 
         className="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
@@ -119,28 +134,33 @@ class Navbar extends React.Component {
             <ul className="navbar-nav">
               <li className="nav-item">
               <Link to="/desprenoi" className="nav-link ">
-                  Despre Noi
+                  {t('despre_noi')}
                   </Link>
               </li>
               <li className="nav-item">
               <Link to="/portofoliu" className="nav-link ">
-                  Portofoliu
+                  {t('portofoliu')}
                   </Link>
               </li>
               <li className="nav-item">
               <Link to="/servicii" className="nav-link ">
-                  Servicii
+                  {t('servicii')}
                   </Link>
               </li>
               <li className="nav-item">
               <Link to="/contact" className="nav-link ">
-                 Contact
+                 {t('Contact')}
               </Link>
               </li>
               <li>
                 <a href="tel:0040755177060" className="btn btn-primary btn js-scroll px-8" role="button">
-                Sună acum!
+                {t('Suna_acum!')}
                 </a>
+              </li>
+              <li>
+                <button onClick={() => changeLanguage('ro')} className="buttonlan"><Icon icon={flagForRomania} height="2rem" width="2rem"/></button>
+                <button onClick={() => changeLanguage('de')} className="buttonlan"><Icon icon={flagForGermany} height="2rem" width="2rem"/></button>
+                <button onClick={() => changeLanguage('en')} className="buttonlan"><Icon icon={flagForUnitedKingdom} height="2rem" width="2rem"/></button>
               </li>
             </ul>
           </div>
@@ -150,4 +170,4 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar;
+export default withTranslation()(Navbar);

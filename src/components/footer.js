@@ -2,8 +2,11 @@ import '../style.css';
 import {Container, Col, Row} from 'react-bootstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons';
+import {useTranslation} from 'react-i18next';
+
 
 function Footer(){
+    const [t]=useTranslation();
     return(
         <div style={{backgroundColor:'white', padding:'5%'}}>
         <Container className="footer" style={{color:"#007BFF"}}>
@@ -16,7 +19,7 @@ function Footer(){
             </Row>
         </Container>
         <div style={{textAlign:'left', marginTop:'5%'}}>
-        <p>&nbsp; &nbsp;Jay Software powered by <a href="https://jobster-synergy.com" target="_blank" rel="noreferrer">Jobster-Synergy Group</a></p> 
+        <p>&nbsp; &nbsp;Jay Software {t("powered")} <a href="https://jobster-synergy.com" target="_blank" rel="noreferrer">Jobster-Synergy Group</a></p> 
         </div></div>
     );
 }

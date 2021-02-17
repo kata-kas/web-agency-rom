@@ -8,8 +8,7 @@ import Tsc from './pages/Tsc';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 import './style.css';
 import Servicii from './pages/Preturi';
-import Kreativio from './pages/Kreativio';
-import Noss from './pages/Noss';
+import Loading from './pages/Loading';
 
 export default function App(){
     return (
@@ -31,12 +30,6 @@ export default function App(){
                 <Route path="/portofoliu">
                     <Portofoliu/>
                 </Route>
-                <Route path="/kreativio">
-                    <Kreativio/>
-                </Route>
-                <Route path="/noss">
-                    <Noss/>
-                </Route>
                 <Route path="/contact">
                     <Contact/>
                 </Route>
@@ -45,6 +38,9 @@ export default function App(){
                 </Route>
                 <Route path="/servicii">
                     <Servicii/>
+                </Route>
+                <Route path="/loading">
+                    <Loading/>
                 </Route>
             </Switch>
        </Router>

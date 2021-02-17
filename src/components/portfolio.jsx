@@ -1,5 +1,6 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import {useTranslation} from 'react-i18next';
+
 //import stock
 import stock from "../img/image1.png";
 import stock1 from "../img/image2.png";
@@ -10,8 +11,9 @@ import stock5 from "../img/jobster.png"
 import stock6 from "../img/adler.png"
 import stock7 from "../img/Frame 1.png"
 import stock8 from "../img/adlerl.png"
-class Portfolios extends React.Component {
-  render() {
+
+export default function Portofolios() {
+    const [t]=useTranslation();
     return (
       <div>
       <section id="work" className="portfolio-mf sect-pt4 route">
@@ -19,9 +21,9 @@ class Portfolios extends React.Component {
           <div className="row">
             <div className="col-sm-12">
               <div className="title-box text-center">
-                <h3 className="title-a">Portfolio</h3>
+                <h3 className="title-a">{t('portofoliu')}</h3>
                 <p className="subtitle-a">
-                  Pagini Web Create de noi
+                  {t('pagini_create')}
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -55,7 +57,7 @@ class Portfolios extends React.Component {
                 
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" style={{height:'100%'}}>
               <div className="work-box">
                 <a href="https://www.mrcleaner.de/" target="blank_" rel="noopener">
                   <div className="work-img">
@@ -144,9 +146,6 @@ class Portfolios extends React.Component {
                             React, Next.js, Netlify
                           </span>
                         </div>
-                        <Link to="/noss" className="btn btn-primary btn js-scroll px-4">
-                            Detalii
-                          </Link>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
@@ -173,9 +172,6 @@ class Portfolios extends React.Component {
                             Angular, Apollo, Nodejs
                           </span>
                         </div> 
-                          <Link to="/kreativio" className="btn btn-primary btn js-scroll px-4">
-                            Detalii
-                          </Link>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
@@ -195,7 +191,7 @@ class Portfolios extends React.Component {
           <div className="col-sm-12">
             <div className="title-box text-center">
               <p className="subtitle-a">
-                Logo-uri Create de noi
+                {t('logouri_create')}
               </p>
               <div className="line-mf"></div>
             </div>
@@ -265,6 +261,6 @@ class Portfolios extends React.Component {
         </div>
     );
   }
-}
 
-export default Portfolios;
+
+

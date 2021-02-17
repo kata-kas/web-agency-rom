@@ -3,11 +3,13 @@ import imageOverlay from "../img/earth.jpg";
 import { Icon } from '@iconify/react';
 import facebookIcon from '@iconify-icons/fa-brands/facebook';
 import instagramFilled from '@iconify-icons/ant-design/instagram-filled';
-
+import {withTranslation} from "react-i18next";
 
 
 class Contacte extends React.Component {
   render() {
+    const { t } = this.props;
+   
     return (
       <section
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
@@ -22,14 +24,13 @@ class Contacte extends React.Component {
                   <div className="row">
                   <div style={{alignText:'right', padding:'5%', backgroundColor:'transparent'}}>
         <h3>
-        ⚡  Toate Paginile Web create de noi sunt de la zero, pe comandă,<br/>
-        ✂️ Special croite pentru necesitățile afacerii tale
-
+        {t("toate")}<br/>
+        {t("adaptate")}
 </h3>
 		</div>
                     <div className="col-md-6">
                       <div className="title-box-2">
-                        <h5 className="title-left">Trimite un mesaj</h5>
+                        <h5 className="title-left">{t("trimite")}</h5>
                       </div>
                       <div>
                         <form
@@ -39,7 +40,7 @@ class Contacte extends React.Component {
                           className="contactForm"
                         >
                           <div id="sendmessage">
-                          Am primit mesajul tău, revenim cu un răspuns! 
+                          {t("am_primit")}
                           </div>
                           <div id="errormessage"></div>
                           <div className="row">
@@ -50,7 +51,7 @@ class Contacte extends React.Component {
                                   name="name"
                                   className="form-control"
                                   id="name"
-                                  placeholder="Nume Prenume"
+                                  placeholder={t("Nume Prenume")}
                                   data-rule="minlen:3"
                                   data-msg="Te rugăm să introduci cel puțin trei litere"
                                 />
@@ -64,7 +65,7 @@ class Contacte extends React.Component {
                                   className="form-control"
                                   name="email"
                                   id="email"
-                                  placeholder="Adresa ta de Email"
+                                  placeholder={t("Adresa ta de Email")}
                                   data-rule="email"
                                   data-msg="Te rugăm să introduci o adresă de email validă"
                                 />
@@ -78,7 +79,7 @@ class Contacte extends React.Component {
                                   className="form-control"
                                   name="subject"
                                   id="subject"
-                                  placeholder="Subiect"
+                                  placeholder={t("Subiect")}
                                   data-rule="minlen:4"
                                   data-msg="Te rugăm să introduci cel puțin 8 litere"
                                 />
@@ -93,7 +94,7 @@ class Contacte extends React.Component {
                                   rows="5"
                                   data-rule="required"
                                   data-msg="Care este mesajul tău?"
-                                  placeholder="Mesaj"
+                                  placeholder={t("Mesaj")}
                                 ></textarea>
                                 <div className="validation"></div>
                               </div>
@@ -103,7 +104,7 @@ class Contacte extends React.Component {
                                 type="submit"
                                 className="button button-a button-big button-rouded"
                               >
-                                Trimite Mesajul
+                                {t("Trimite Mesajul")}
                               </button>
                             </div>
                           </div>
@@ -112,13 +113,13 @@ class Contacte extends React.Component {
                     </div>
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">Contactează-ne</h5>
+                        <h5 className="title-left">{t("Contactează-ne")}</h5>
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                        Fie că dorești să iei legătura cu noi, să vorbești despre o colaborare în cadrul unui proiect sau pur și simplu să ne saluți, ne-ar plăcea să discutăm cu tine.
+                        {t("fie")}
                           <br />
-                          Doar completeaza formularul alăturat și trimite-ne un mesaj 😊
+                          {t("doar")} 😊
                         </p>
                         <ul className="list-ico">
                                 <li><span className="ion-ios-location"></span> Cal. Timisorii, Nr 212, Arad, Romania</li>
@@ -170,4 +171,4 @@ class Contacte extends React.Component {
   }
 }
 
-export default Contacte;
+export default withTranslation()(Contacte);
