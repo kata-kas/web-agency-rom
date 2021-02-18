@@ -57,7 +57,6 @@ export default function Portofolios() {
                 
               </div>
             </div>
-           
             <div className="col-md-4">
               <div className="work-box">
                 <a href="https://www.nabservices.at/" target="blank_" rel="noopener">
