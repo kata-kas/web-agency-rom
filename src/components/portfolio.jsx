@@ -4,7 +4,6 @@ import {useTranslation} from 'react-i18next';
 //import stock
 import stock from "../img/image1.png";
 import stock1 from "../img/image2.png";
-import stock2 from "../img/image3.jpg";
 import stock3 from "../img/stock4.png"
 import stock4 from "../img/celestius.png"
 import stock5 from "../img/jobster.png"
