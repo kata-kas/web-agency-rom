@@ -21,13 +21,15 @@ import dockerIcon from '@iconify-icons/logos/docker-icon';
 import netlifyIcon from '@iconify-icons/logos/netlify';
 import { Button} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
+import {useTranslation} from 'react-i18next'
 
 function Icons(){
+    const {t} = useTranslation();
     return (
       <div 
       style={{fontSize:'50px'}}
       >   
-          <h2>Din 2016 până în prezent am lucrat cu următoarele limbaje de programare, frameworks și tehnologii: </h2>
+          <h2>{t('despre_noi1')} </h2>
           <Icon icon={javascriptIcon}/>&nbsp;
           <Icon icon={reactIcon}/>&nbsp;
           <Icon icon={angularIcon}/>&nbsp;
@@ -48,9 +50,9 @@ function Icons(){
           <Icon icon={dockerIcon}/>&nbsp;
           <Icon icon={netlifyIcon}/> <br/>
           <Icon icon={goIcon}/><br/>
-          <h3>... și multe altele</h3>
+          <h3>{t('despre_noi2')}</h3>
           <Link to="/contact">
-          <Button size="lg">Cere o cotație</Button>
+          <Button size="lg">{t('cere')}</Button>
           </Link>
           </div>)}
 
