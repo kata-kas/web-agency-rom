@@ -22,12 +22,6 @@ class Contacte extends React.Component {
               <div className="contact-mf">
                 <div id="contact" className="box-shadow-full">
                   <div className="row">
-                  <div style={{alignText:'right', padding:'5%', backgroundColor:'transparent'}}>
-        <h3>
-        {t("toate")}<br/>
-        {t("adaptate")}
-</h3>
-		</div>
                     <div className="col-md-6">
                       <div className="title-box-2">
                         <h5 className="title-left">{t("trimite")}</h5>
