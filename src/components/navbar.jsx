@@ -143,11 +143,6 @@ class Navbar extends React.Component {
                   </Link>
               </li>
               <li className="nav-item">
-              <Link to="/servicii" className="nav-link ">
-                  {t('servicii')}
-                  </Link>
-              </li>
-              <li className="nav-item">
               <Link to="/contact" className="nav-link ">
                  {t('Contact')}
               </Link>
