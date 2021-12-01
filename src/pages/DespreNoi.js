@@ -7,7 +7,7 @@ export default function DespreNoi(){
     return(
         <div style={{backgroundColor:'white'}}>
             <Navbar/>
-            <div style={{ paddingTop:'10%', paddingBottom:'10%'}}>
+            <div className="container" style={{ paddingTop:'10%', paddingBottom:'10%'}}>
             <About/>
             </div>
             <Footer/>
