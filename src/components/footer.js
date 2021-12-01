@@ -8,7 +8,7 @@ import {useTranslation} from 'react-i18next';
 function Footer(){
     const [t]=useTranslation();
     return(
-        <div style={{backgroundColor:'white', padding:'5%'}}>
+        <div style={{backgroundColor:'white'}}>
         <Container className="footer" style={{color:"#007BFF"}}>
             <Row>
                 <Col style={{textAlign:'left'}}><a href="https://www.facebook.com/jaysoftwarero" target="blank" style={{textDecoration:'none'}}>
