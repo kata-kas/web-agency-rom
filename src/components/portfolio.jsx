@@ -5,11 +5,8 @@ import {useTranslation} from 'react-i18next';
 import stock from "../img/image1.png";
 import stock1 from "../img/image2.png";
 import stock3 from "../img/stock4.png"
-import stock4 from "../img/celestius.png"
 import stock5 from "../img/jobster.png"
 import stock6 from "../img/adler.png"
-import stock7 from "../img/Frame 1.png"
-import stock8 from "../img/adlerl.png"
 
 export default function Portofolios() {
     const [t]=useTranslation();
